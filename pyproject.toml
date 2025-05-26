@@ -1,9 +1,19 @@
 [project]
 name = "tidy-nb"
 version = "0.1.0"
-description = "Add your description here"
+description = "Tidy up notebooks to Python files for exploration to production."
 readme = "README.md"
-requires-python = ">=3.13"
+authors = [{name = "Carol Willing"}]
+license = "BSD-3-Clause"
+requires-python = ">=3.11"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries",
+]
 dependencies = [
     "jupyter>=1.1.1",
     "marimo>=0.13.11",
@@ -11,3 +21,12 @@ dependencies = [
     "nbformat>=5.10.4",
     "nbstripout>=0.8.1",
 ]
+
+[project.urls]
+Homepage = "https://github.com/willingc/tidy-nb"
+Changelog = "https://github.com/willingc/tidy-nb/releases"
+Issues = "https://github.com/willingc/tidy-nb/issues"
+CI = "https://github.com/willingc/tidy-nb/actions"
+
+[project.optional-dependencies]
+test = ["pytest"]
