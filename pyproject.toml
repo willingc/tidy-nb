@@ -17,6 +17,7 @@ classifiers = [
 
 dependencies = [
     "jupyter>=1.1.1",
+    "jupytext>=1.17.1",
     "marimo>=0.13.11",
     "nbconvert>=7.16.6",
     "nbformat>=5.10.4",
